@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <article>
+      <picture>
+        <source media="(min-width: 735px)" srcset="images/image-product-desktop.jpg">
+        <img src="images/image-product-mobile.jpg" alt="Product image" width="100%" height="100%" class="image">
+      </picture>
+      <section class="body-article">
+        <span class="tag">PERFUME</span>
+        <h1 class="title">Grabrielle Essence Eau De Parfum</h1>
+        <p class="text">
+          A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of
+          CHANEL.
+        </p>
+        <p class="price">
+          $149.99 <span>$169.99</span>
+        </p>
+        <button class="btn">
+          <img src="images/icon-cart.svg" alt="Cart icon">
+          Add to Cart
+        </button>
+      </section>
+    </article>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Fabian Yate Ramirez</a>.
+  </div>
+</body>
+
+</html>
